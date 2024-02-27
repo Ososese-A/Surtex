@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+:root {
+  --font1 : 'jost';
+  --font2: 'roboto serif';
+  --font3: 'arial';
+  --red: #110300;
+  --green: #92F5A2;
+  --yellow: #FDFF89;
+
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/*CSS set up done*/
+
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+.navul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navli {
+  list-style-type: none;
+  display: inline;
+}
+
+.navli:not(:last-child) {
+  margin: 0px 22px 0px 22px;
+}
+
+.nav-con {
+  background: var(--red);
+}
+
+nav {
+  font-family: var(--font1);
+  color: var(--green);
+  margin: 0px 130px 0px 130px;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+/*nav bar styling done*/
+.hero {
+  background-image: url("../assets/hero_img.png");
+  padding-top: 480px;
+  height: 250px;
+  width: 100vw;
+}
+
+.hero-tit {
+  color: var(--green);
+  font-family: var(--font2);
+  font-weight: lighter;
+  font-size: 64px;
+  text-align: center;
+}
+
+.hero-txt {
+  color: var(--green);
+  font-family: var(--font1);
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*hero styling done*/
+.ple {
+  background: var(--red);
+  padding-top: 48px;
+}
+
+.sub-head-ple {
+  text-align: center;
+  font-family: var(--font1);
+  color: var(--green);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.ple-con {
+  height: 648px;
+  width: 100vw;
+  background-image: url("../assets/visual_interest_one.png");
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dom-con {
+  border: 1px solid var(--green);
+  width: 280px;
+  height: 275px;
+  position: relative;
+  overflow: visible;
+}
+
+.conds {
+  position: absolute;
+  top: -10;
+  left: -10;
+  margin-left: -120px;
+  margin-top: -40px;
+  float: left;
+}
+
+.dom-txt {
+  color: var(--green);
+  font-size: 16px;
+  font-family: var(--font1);
+  text-align: right;
+  margin: 24% 8%;
+}
+
+.dom-label {
+  border: 1px solid var(--yellow);
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: var(--yellow);
+  font-size: 24px;
+  font-family: var(--font3);
+  color: var(--red);
+  position: absolute;
+  bottom: 0;
+  left: -10;
+  margin-left: -120px;
+  margin-bottom: -24px;
+  float: left;
+}
+
+.lub {
+  border: 1px solid var(--green);
+  width: 380px;
+  height: 276px;
+  position: relative;
+  overflow: visible;
+  margin: 62px 20px 0px 20px;
+}
+
+.lb {
+  position: absolute;
+  top: -10;
+  margin-top: -160px;
+  margin-left:40%;
+  margin-right: 40%;
+}
+
+.lub-label {
+  border: 1px solid var(--yellow);
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: var(--yellow);
+  font-size: 24px;
+  font-family: var(--font3);
+  color: var(--red);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -24px;
+  margin-left: 24%;
+}
+
+.lub-txt {
+  color: var(--green);
+  font-size: 16px;
+  font-family: var(--font1);
+  text-align: center;
+  margin: 22% 24% 26% 24%;
+}
+
+.toys {
+  border: 1px solid var(--green);
+  width: 280px;
+  height: 275px;
+  position: relative;
+  overflow: visible;
+}
+
+.stoys {
+  position: absolute;
+  top: -10;
+  right: 0;
+  margin-right: -96px;
+  margin-top: -40px;
+}
+
+.toys-txt {
+  color: var(--green);
+  font-size: 16px;
+  font-family: var(--font1);
+  text-align: left;
+  margin: 24% 8%;
+}
+
+.toys-label {
+  border: 1px solid var(--yellow);
+  width: 200px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: var(--yellow);
+  font-size: 24px;
+  font-family: var(--font3);
+  color: var(--red);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: -80px;
+  margin-bottom: -24px;
+  float: right;
+}
+
+/*pleasurables styling done*/
+
+.sub-head-talk {
+  text-align: center;
+  font-family: var(--font1);
+  color: var(--red);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.talk {
+  background-color: var(--green);
+  padding: 134px 0px;
+}
+
+.talk-txt {
+  text-align: center;
+  font-size: 16px;
+  color: var(--red);
+  font-family: var(--font1);
+}
+
+.talk-btn {
+  border: 1px solid var(--red);
+  font-family: var(--font3);
+  font-size: 24px;
+  width: 273px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 1% 40% 4% 40%;
+}
+
+.talk-con {
+  border: 3.2px solid var(--green);
+  width: 380px;
+  height: 500px;
+  color: var(--green);
+  font-family: var(--font1);
+  text-align: center;
+  background-color: var(--red);
+}
+
+.talk-con:nth-child(2){
+  margin: 0px 20px;
+}
+
+.talk-img {
+  margin-bottom: 32px;
+}
+
+.talk-con-tit {
+  font-weight: 600;
+}
+
+.talk-con-txt {
+  margin: 16px 0px;
+}
+
+.talk-con-date {
+  opacity: 0.5;
+}
+
+.talk-articles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: var(--font1);
+  color: var(--red);
+  text-align: center;
+}
+
+/*talk styling done*/
+
+.discover {
+  border: 1px solid transparent;
+  height: 976px;
+  width: 100vw;
+  background-color: var(--red);
+  background-image: url("../assets/visual_interest_two.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dis-tit {
+  font-size: 40px;
+  font-family: var(--font1);
+  font-weight: 400;
+  color: var(--green);
+}
+
+.dis-txt {
+  font-size: 16px;
+  font-family: var(--font1);
+  color: var(--green);
+}
+
+.dis-txt-box {
+  border: 1px solid var(--green);
+  width: 458px;
+  height: 310px;
+  padding: 120px 104px;
+  overflow: hidden;
+  margin-top: 96px;
+}
+
+.dis-img-box {
+  position: relative;
+  overflow: visible;
+  margin-left: -160px;
+}
+
+.dis-btn {
+  border: 1px solid var(--yellow);
+  width: 280px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: var(--yellow);
+  font-size: 24px;
+  font-family: var(--font3);
+  color: var(--red);
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin-top: 56px;
+}
+
+/*discover styling done*/
+
+.letter {
+  width: 100vw;
+  height: 390px;
+  padding-top: 170px;
+  border: 1px solid transparent;
+  background-image: url("../assets/pl_letter.png");
+  background-size: cover;
+}
+
+.sub-head-let {
+  text-align: center;
+  font-family: var(--font1);
+  color: var(--green);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.let-txt {
+  color: var(--green);
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--font1);
+}
+
+#news-field {
+  height: 56px;
+  width: 564px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  padding-left: 16px;
+  margin-right: 20px;
+  background-color: var(--red);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+}
+
+#news-field::placeholder {
+  color: var(--green);
+}
+
+#sub-btn[type=submit] {
+  border: 1px solid var(--yellow);
+  width: 280px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: var(--yellow);
+  font-size: 24px;
+  font-family: var(--font3);
+  color: var(--red);
+  overflow: hidden;
+}
+
+/*letter styling done*/
+
+.foot {
+  width: 100vw;
+  height: 294px;
+  padding-top: 56px;
+  background: var(--red);
+  color: var(--green);
+  font-family: var(--font1);
+}
+
+.foot-logo {
+  margin: 0% 45%;
+}
+
+.foot-txt {
+  display: flex;
+  align-items: center;
+  width: 1019px;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+
+.foot-txt-one {
+  display: flex;
+  width: 200px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-txt-two {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-copy {
+  border-top: 1px solid var(--green);
+  width: 1180px;
+  height: 104px;
+  line-height: 104px;
+  text-align: center;
+  margin: 48px auto 0px auto;
+  font-size: 12px;
+}
